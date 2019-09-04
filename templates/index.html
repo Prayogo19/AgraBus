@@ -1,0 +1,209 @@
+{% load static %}
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--=== Favicon ===-->
+    {% include "snippets/favicon.html" %}
+
+    <title>{{title}}</title>
+     <!--=== css ===-->
+    {% include "snippets/style.html" %}
+
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="loader-active">
+    <!--== Preloader Area Start ==-->
+    <div class="preloader">
+        <div class="preloader-spinner">
+            <div class="loader-content">
+                <img src="{% static "img/preloader.gif" %}" alt="JSOFT">
+            </div>
+        </div>
+    </div>
+    <!--== Preloader Area End ==-->
+
+    {% include "snippets/navhead.html" %}
+
+    <!--== SlideshowBg Area Start ==-->
+    <section id="slideslow-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="slideshowcontent">
+                        <div class="display-table">
+                            <div class="display-table-cell">
+                                <h1>AYO SEWA SEKARANG</h1>
+                                <p> AGRA MAS <br> Safety Comfort To your Destination </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--== SlideshowBg Area End ==-->
+
+    <!--== Articles Area Start ==-->
+    <section id="tips-article-area" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- Section Title Start -->
+                <div class="col-lg-12">
+                    <div class="section-title  text-center">
+                        <h2>Selamat Datang di Sistem Informasi Penyewaan Bus Pariwisata Agra Mas</h2>
+                        <span class="title-line"><i class="fa fa-bus"></i></span>
+                        <p><a href="/bookbus"><button class="btn btn-danger btn-lg">SEWA SEKARANG</button></a></p>
+                    </div>
+                </div>
+                <!-- Section Title End -->
+            </div>
+
+            <!-- Articles Content Wrap Start -->
+            <div class="row">
+                <!-- Single Articles Start -->
+                <div class="col-lg-12">
+                    <article class="single-article">
+                        <div class="row">
+                            <!-- Articles Thumbnail Start -->
+                            <div class="col-lg-5">
+                                <div class="article-thumb">
+                                    <img src="{% static "img/article/arti-thumb-1.jpg" %}" alt="JSOFT">
+                                </div>
+                            </div>
+                            <!-- Articles Thumbnail End -->
+
+                            <!-- Articles Content Start -->
+                            <div class="col-lg-7">
+                                <div class="display-table">
+                                    <div class="display-table-cell">
+                                        <div class="article-body">
+                                            <h3><a href="article-details.html">BIG BUS 3-2</a></h3>
+                                            <div class="article-meta">
+
+                                            </div>
+
+                                            <div class="article-date">25 <span class="month">jan</span></div>
+
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ipsum sunt libero quis vitae ex minima autem repellat mollitia dolore. Eos eaque fugit fuga. Voluptatibus dolorum possimus ratione nobis illo.</p>
+
+                                            <a href="article-details.html" class="readmore-btn">Read More <i class="fa fa-long-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Articles Content End -->
+                        </div>
+                    </article>
+                </div>
+                <!-- Single Articles End -->
+
+                <!-- Single Articles Start -->
+                <div class="col-lg-12">
+                    <article class="single-article middle">
+                        <div class="row">
+
+                            <!-- Articles Thumbnail Start -->
+                            <div class="col-lg-5 d-xl-none">
+                                <div class="article-thumb">
+                                    <img src="{% static "img/article/arti-thumb-2.jpg" %}" alt="JSOFT">
+                                </div>
+                            </div>
+                            <!-- Articles Thumbnail End -->
+
+                            <!-- Articles Content Start -->
+                            <div class="col-lg-7">
+                                <div class="display-table">
+                                    <div class="display-table-cell">
+                                        <div class="article-body">
+                                            <h3><a href="article-details.html">BIG BUS 2-2</a></h3>
+                                            <div class="article-meta">
+                                            </div>
+
+                                            <div class="article-date">14<span class="month">feb</span></div>
+
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ducimus deserunt aspernatur dolore est, quibusdam nam voluptas repudiandae rem maiores in atque iure expedita earum blanditiis nulla fugit debitis ad.</p>
+
+                                            <a href="article-details.html" class="readmore-btn">Read More <i class="fa fa-long-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Articles Content End -->
+
+                            <!-- Articles Thumbnail Start -->
+                            <div class="col-lg-5 d-none d-xl-block">
+                                <div class="article-thumb">
+                                    <img src="{% static "img/article/arti-thumb-2.jpg" %}" alt="JSOFT">
+                                </div>
+                            </div>
+                            <!-- Articles Thumbnail End -->
+                        </div>
+                    </article>
+                </div>
+                <!-- Single Articles End -->
+
+                <!-- Single Articles Start -->
+                <div class="col-lg-12">
+                    <article class="single-article">
+                        <div class="row">
+                            <!-- Articles Thumbnail Start -->
+                            <div class="col-lg-5">
+                                <div class="article-thumb">
+                                    <img src="{% static "img/article/arti-thumb-3.jpg" %}" alt="JSOFT">
+                                </div>
+                            </div>
+                            <!-- Articles Thumbnail End -->
+
+                            <!-- Articles Content Start -->
+                            <div class="col-lg-7">
+                                <div class="display-table">
+                                    <div class="display-table-cell">
+                                        <div class="article-body">
+                                            <h3><a href="article-details.html">MEDIUM 2-2</a></h3>
+                                            <div class="article-meta">
+
+                                            </div>
+
+                                            <div class="article-date">17 <span class="month">feb</span></div>
+
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia sapiente id iusto nostrum soluta voluptate. Inventore nemo numquam, sequi saepe culpa distinctio iste error nesciunt quos, praesentium voluptas amet facere.</p>
+
+                                            <a href="article-details.html" class="readmore-btn">Read More <i class="fa fa-long-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Articles Content End -->
+                        </div>
+                    </article>
+                </div>
+                <!-- Single Articles End -->
+            </div>
+            <!-- Articles Content Wrap End -->
+        </div>
+    </section>
+    <!--== Articles Area End ==-->
+
+    <!--== Footer Area Start ==-->
+    {% include "snippets/footer.html" %}
+    <!--== Footer Area End ==-->
+
+    <!--== Scroll Top Area Start ==-->
+    <div class="scroll-top">
+        <img src="{% static "img/scroll-top.png" %}" alt="JSOFT">
+    </div>
+    <!--== Scroll Top Area End ==-->
+
+    {% include "snippets/scripts.html" %}
+
+</body>
+
+</html>
